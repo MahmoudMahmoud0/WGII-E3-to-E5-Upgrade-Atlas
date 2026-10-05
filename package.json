@@ -1,0 +1,14 @@
+{
+  "name": "upgrade-atlas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Responsive static building upgrade reference, ready for GitHub Pages.",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "build:data": "node scripts/build-data.mjs",
+    "test": "node tests/data.cjs && node tests/ui.cjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
